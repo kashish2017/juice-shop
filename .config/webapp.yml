@@ -1,4 +1,5 @@
 ---
+require('newrelic');
 webapp: 1.0.0
 apps:
   - id: juice-shop
