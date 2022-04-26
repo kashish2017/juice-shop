@@ -1,3 +1,4 @@
+ENV NEW_RELIC_NO_CONFIG_FILE=true
 FROM node:16 as installer
 COPY . /juice-shop
 WORKDIR /juice-shop
